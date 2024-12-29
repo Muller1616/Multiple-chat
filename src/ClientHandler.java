@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
-
+// this is handler of the client request 
 public class ClientHandler implements Runnable {
     public static ArrayList<ClientHandler> clientHandlers = new ArrayList<>();
     private Socket socket;
