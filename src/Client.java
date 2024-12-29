@@ -19,7 +19,7 @@ public class Client {
             closeEverything(socket, bufferedReader, bufferedWriter);
         }
     }
-
+//send message  or request for server
     public void sendMessage(){
         try {
             bufferedWriter.write(username);
@@ -74,7 +74,7 @@ public class Client {
         }
 
     }
-
+//main function
     public static void main(String [] args ) throws IOException {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter your username to chat with group: ");
